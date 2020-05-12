@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    position: relative;
+}
+
+.menuItem:hover .menuChildren {
+    display: block;
+}
+
+.menuChildren {
+    position: absolute;
+    display: none;
+    background: aliceblue;
+}
